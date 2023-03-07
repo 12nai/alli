@@ -24,7 +24,7 @@ EditText time;
                 Calendar currentTIME = Calendar.getInstance();
                 int hour = currentTIME.get(Calendar.HOUR_OF_DAY);
                 int minute = currentTIME.get(Calendar.MINUTE);
-                //int seconds = currentTIME.get(Calendar.SECOND);
+                //int seconds = currentTIME.get(Calendar.SECOND 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);
 
                 TimePickerDialog timePickerDialog;
                 timePickerDialog = new TimePickerDialog(MainActivity.this, new TimePickerDialog.OnTimeSetListener() {
